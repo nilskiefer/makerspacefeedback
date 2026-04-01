@@ -73,6 +73,13 @@ Baseline stock:
 - Battery management systems
 - Sensors
 - Microcontrollers
+- Breadboards
+- Dupont wires
+- Resistor and capacitor assortment kits
+- Kapton tape and electrical tape
+- Zip ties and velcro straps
+- Duct tape
+- Fiberglass and carbon fiber rods
 
 ## Mechanical Equipment
 
