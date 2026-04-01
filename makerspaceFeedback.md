@@ -1,92 +1,76 @@
 # Makerspace Feedback Notes
 
-**Nils Kiefer**  
-March 2026
+**Nils Kiefer**, March 2026
 
-These are personal notes based on my own experience visiting and using a number of makerspaces. They are not meant as a formal recommendation, just a compilation of the things I personally think matter most.
+Personal notes based on visiting and using several makerspaces. Not a formal recommendation, just what I think matters most.
 
-## What Seems Most Important
+## What Matters Most
 
-My overall impression is that the most important decision is usually not which flagship machines to buy. The bigger long-term risks tend to be poor maintenance, missing consumables, weak storage routines, and tools that do not match the actual users of the space.
+The most important decision is usually not which flagship machines to buy. The bigger long-term risks are poor maintenance, missing consumables, weak storage, and tools that don't match the actual users.
 
-If I had to summarize my view in one sentence, it would be this: design the makerspace around the realities of shared use. Beginners will make mistakes, tools will wear out quickly, and missing small parts will block more projects than missing advanced machines.
+Beginners make mistakes, tools wear out fast, and missing small parts will block more projects than missing advanced machines.
 
-### 1. Consumables matter more than people expect
+### 1. Consumables
 
-The biggest pain point in most workshops is not the lack of tools, but the lack of maintenance and missing consumables. A space can look excellent in year one and then become frustrating very quickly once supplies disappear and worn parts are not replaced.
+The biggest pain point in most workshops isn't a lack of tools, it's missing consumables and worn parts that never get replaced. A space can look great in year one and become frustrating quickly without a resupply plan.
 
-Because of that, I think the makerspace would benefit a lot from keeping a strong stock of basic materials and frequently used parts.
+### 2. Tools as consumables
 
-### 2. Some "tools" should be treated almost like consumables
+In shared use, some items wear out fast enough that replacement should be planned from the start. Consider offering replacements for purchase; per user it becomes cheap in bulk.
 
-In a shared environment, some items wear out fast enough that it is better to plan for replacement instead of treating them as permanent purchases. Can have some general use but also offer people to buy replacements (per user it becomes cheap in bulk)
-
-This applies especially to:
-
+This applies to:
 - Soldering iron tips
 - Drill bits
 - Needle-nose pliers
 - Cutters
 - Screwdriver bits
 - Oscilloscope probes
+- Power supply cables
 
-In the same spirit, I usually think it makes more sense to buy reliable, low-cost shared tools in bulk and replace them when needed than to buy a few expensive tools and hope they survive heavy use. Wire strippers are one area where paying more can make sense.
+For tools in this category, it makes more sense to buy reliable low-cost items in bulk than a few expensive ones. Wire strippers are an exception where paying more is worth it.
 
-### 3. Infrastructure and workflow matter more than niche machines
+### 3. Infrastructure 
 
-My impression is that strong infrastructure matters more than unusual equipment.
-
-The basics I would care most about are:
-
-- Sturdy workbenches
+- Sturdy workbenches (Heard good things about ELFA arbetsbänk, relatively cheap)
 - Good lighting
-- Easy local Wi-Fi access for IoT devices and lab equipment
-- Power outlets with ground-fault protection, if that is not already standard in the facility
+- Local Wi-Fi for IoT devices and lab equipment (Eduroam is often impractical for this)
+- Ground-fault protected outlets, if not already standard
 
-Eduroam is often inconvenient for IoT projects and some modern machines, so a local Wi-Fi network for makerspace users would be very helpful.
+### 4. Storage, access, and cleanup
 
-### 4. Storage, access, and cleanup need to be solved early
+A makerspace degrades quickly if these aren't easy.
 
-A makerspace degrades quickly if storage and cleanup are inconvenient. I think cleaning needs to be easy, project storage needs to exist, and higher-value tools probably need some kind of controlled access.
-
-Useful ideas:
-
-- A dedicated tool locker for higher-value equipment somehow limited to people, probably a million ways to do it.
-- Project storage for longer-term members who want to keep their own tools and ongoing builds on site
-- A small storage fee so abandoned boxes can be cleared without drama when it stops being payed (forgotten)
+- Controlled access for higher-value tools
+- Project storage for members with ongoing builds
+- A small storage fee so abandoned boxes can be cleared cleanly
 - A workshop vacuum
 
-### 5. The tool selection should match the actual users
+### 5. Match tools to actual users
 
-Many workshop problems come from inexperience rather than negligence. It is unrealistic to train every user to a high level, and people often do not know what they do not know. Because of that, I think tool choices should reflect the actual user base.
+Many problems come from inexperience, not negligence. If the space is primarily for students and beginners, there's little reason to fill it with premium tools that cost much more without meaningfully improving beginner workflows.
 
-If the space is mainly for students and beginners, there is usually little reason to fill it with premium tools that cost many times more but do not create equally large benefits in beginner workflows.
+### 6. Visit an established makerspace
 
-### 6. Looking at an established makerspace would probably help
+A visit to Stockholm Makerspace would likely be valuable. They support a broad range of users, have operated for a long time, and have already solved many practical problems that come up in shared workshop environments.
 
-I think a visit to Stockholm Makerspace would likely be very useful. They support a broad range of users, have operated for a long time, and seem to have already solved many practical problems that show up in shared workshop environments.
+Its in THINGS building and there are often enthusiastic "guides" that can walk through what they offer and answer any questions.
 
 ## Core Stock to Keep on Hand
 
-In many projects, the real bottleneck is not a missing machine but one missing small part. This is one of the main reasons I often go to ELAB: not for their older or more niche tools, but because they have stocked useful components and recent chips that make it easy to keep moving on a project.
+The real bottleneck in many projects isn't a missing machine but one missing small part. This is one of the main reasons people rely on spaces like ELAB, not for niche tools, but for stocked components that keep projects moving.
 
-If I were setting up a baseline stock, I would want things like:
-
+Baseline stock:
 - Solder
 - Soldering iron tips
 - Hot glue sticks
 - Drill bits
 - Screws and fastener assortments
-- Common cables and connectors
+- Common cables and connectors (USB-C, Micro-USB, DC)
 - Heat-shrink tubing
-- Wire in multiple gauges and types
+- Wire (multiple gauges)
 - Heat-set inserts
-- USB-C cables
-- Micro-USB cables
-- DC connectors
 - Buck converters
 - Battery management systems
-- Chargers
 - Sensors
 - Microcontrollers
 
@@ -96,53 +80,42 @@ If I were setting up a baseline stock, I would want things like:
 
 #### Several small 3D printers
 
-I tend to think of 3D printers almost like large consumables. They have many moving parts and will inevitably require maintenance, often to the point where repairs are more time-consuming than replacement. In shared use, the main bottleneck is usually not maximum print volume, but having enough printers that are both working and available.
+Treat 3D printers like large consumables. They have many moving parts and in shared use the bottleneck is almost never print volume, it's having enough printers that are working and available. Redundancy matters more than buying a few premium machines.
 
-Because of that, I would rather buy several small, relatively affordable printers than a few expensive ones. A strong candidate is the [Bambu Lab A1 Mini](https://bambulab.com/en-eu/a1-mini).
+A strong candidate is the [Bambu Lab A1 Mini](https://bambulab.com/en-eu/a1-mini). If one breaks, replacement is realistic. From experience, most printed parts will fit on a machine that size.
 
-If one breaks, replacement is realistic. Around 95 percent of printed parts will probably fit on a machine of that size. From what I have seen, shared-use printers degrade regardless of price category, so redundancy matters more than buying a few premium machines.
-
-For general use, I would probably limit printing to PLA.
+For general use, limit printing to PLA.
 
 #### 3D scanner
 
-I think a 3D scanner could be a relatively high-priority purchase because it fills a niche that does not seem to be covered elsewhere at KTH. It is often hard for an individual, or even a typical student makerspace, to justify buying one, even though it becomes useful surprisingly often.
+A 3D scanner fills a niche that isn't well covered elsewhere at KTH and is hard for individuals or small groups to justify buying. It becomes useful surprisingly often; anything involving designing around an existing object (enclosures, adapters, mounts, replacement parts, reverse engineering) is much easier with one.
 
-Anything that involves designing around an object that already exists becomes much easier with a 3D scanner. That includes enclosures, adapters, mounts, replacement parts, reverse engineering, and modifications to existing products.
+One concrete option: [EINSTAR 2 from 3DVerkstan](https://3dverkstan.se/produkt/einstar-2/), 13,188 SEK ex. VAT.
 
-One concrete option is the [EINSTAR 2](https://3dverkstan.se/produkt/einstar-2/), listed at 13,188 SEK excluding VAT.
+#### Basic bench tools
 
-#### Basic mechanical bench tools
+- A Dremel-style rotary tool
+- A drill stand for it, such as the [Dremel Workstation 220](https://www.dremel.com/se/sv/p/dremel-workstation-26150220jb)
+- A small vise, for example this [tool holder from Jula](https://www.jula.se/catalog/verktyg-och-maskiner/tillbehor-till-elverktyg/slip-och-gravyrtillbehor/slipgravyrsatser-och-tillbehor/verktygshallare-024117/)
+- A handheld drill
 
-For light mechanical work, I think a few flexible bench tools would go a long way:
-
-- A Dremel-style rotary tool, because it is easy to use and useful for many small tasks
-- A drill stand for the rotary tool, such as the [Dremel Workstation](https://www.dremel.com/se/sv/p/dremel-workstation-26150220jb)
-- A small vise for holding parts during lighter work, for example this [tool holder and vise from Jula](https://www.jula.se/catalog/verktyg-och-maskiner/tillbehor-till-elverktyg/slip-och-gravyrtillbehor/slipgravyrsatser-och-tillbehor/verktygshallare-024117/)
-
-If the space is expected to support more woodworking, or other work that needs sturdier fixtures, that becomes a separate discussion. At that point, stronger vises and more serious workholding would probably make sense, but so would better dust handling and filtration.
-
-Obviously a handheld drill, any should do.
+If the space is expected to support serious woodworking, stronger workholding and better dust handling become a separate discussion.
 
 ### Medium Priority
 
-#### One larger or more capable printer
+#### One larger printer
 
-It could make sense to also have one larger or more advanced printer for bigger parts and more demanding materials, but I would treat this as secondary. PLA is probably sufficient for most makerspace projects.
-
-ELAB has had some success with the Bambu Lab A1, although I do not think the increased cost is justified unless you already know that a larger print area than the A1 Mini is needed often.
+A larger or more advanced printer could make sense for bigger parts and demanding materials, but treat it as secondary. The [Bambu Lab A1](https://bambulab.com/en-eu/a1) is an option, though the larger print area is only worth the cost if you already know it'll be needed regularly.
 
 #### Rapid prototyping tools
 
-If the goal is to support many MVPs and fast prototyping cycles, a hot-wire cutter and a supply of styrofoam could be very useful.
+A hot-wire cutter and styrofoam supply can be very useful for ultra fast prototyping.
 
 ### Lower Priority
 
 #### Multifunction fabrication machine
 
-A machine like the [Bambu H2D](https://bambulab.com/en-eu/h2d) is interesting.
-
-It may cover several fabrication tasks, but it does not replace a proper laser cutter and concentrates maintenance risk into one machine. I would not treat this as an early purchase.
+The [Bambu H2D](https://bambulab.com/en-eu/h2d) covers several fabrication tasks but doesn't replace a proper laser cutter and concentrates maintenance risk into one machine. May be a good option if access is limited somehow. Not an early purchase.
 
 ## Electrical Equipment
 
@@ -150,83 +123,63 @@ It may cover several fabrication tasks, but it does not replace a proper laser c
 
 #### Baseline electrical bench
 
-The baseline electrical setup I would want to see includes:
-
-- Cheap power banks for breadboard circuits and prototypes
+- Power banks (cheap, good 5 V source for breadboard prototypes)
 - Wire strippers
-- Several crimp tools
+- Crimp tools (multiple types, different connectors require different tools)
 - Multimeters
 - Heat guns
 - Bench power supplies
 - Soldering irons
-- A microscope
-- An oscilloscope
-
-#### Power banks
-
-Cheap power banks are useful because they provide a simple, protected, and convenient 5 V source for small prototypes. This assumes that USB-to-breadboard adapters, breadboards, and Dupont wires are also available.
-
-#### Wire strippers and crimp tools
-
-I think wire strippers are essential. Crimp tools should also be available in multiple types, because crimping comes up often and different connectors require different tools.
+- Microscope
+- Oscilloscope
 
 #### Multimeters
 
-Cheap multimeters have become very good. There is usually no need to overspend here. One example is the [UNI-T 131D from Electrokit](https://www.electrokit.com/multimeter-uni-t131d).
+Cheap multimeters have become very good. One example: [UNI-T UT131D from Electrokit](https://www.electrokit.com/multimeter-uni-t131d), 199 SEK.
 
 #### Soldering irons
 
-T12-based soldering irons seem like a good fit for a shared lab. They are cheap, common, and easy to source. Lab soldering irons will inevitably be abused, and I do not think the price jump to marginally better stations is justified in a shared student environment.
+T12-based stations are a good fit for shared labs, cheap, common, easy to source. Lab irons will be abused, and the price jump to marginally better stations isn't justified in a student environment. Stock tips in bulk and let users buy replacements when needed.
 
-Spare tips should be stocked in bulk. A good model is to treat tips as consumables that users buy when needed. That shifts some responsibility from maintainers to users and makes wear more manageable.
-
-One possible option is this [KSGER T12 station](https://ksger.net/products/1859372).
+One option: [KSGER T12 station](https://ksger.net/products/1859372).
 
 #### Microscope
 
-I think a microscope is a very overlooked tool and often becomes almost essential for anything beyond the simplest electronics work. SMD parts are cheap in bulk, and assembly and debugging get much easier when magnification is available.
-
-I would want to research this more before making a concrete recommendation.
+An often overlooked tool that becomes almost essential for anything beyond basic electronics work. SMD parts are cheap in bulk, and assembly and debugging get much easier with magnification. Worth more research before a specific recommendation.
 
 #### Oscilloscope
 
-I would definitely want an oscilloscope. I am very happy with the Digilent Analog Discovery 3. It is relatively cheap, requires a laptop, and offers more features than many oscilloscopes that cost several times more, although at lower frequencies. Its main drawbacks are that it has no built-in screen and may be somewhat more fragile than a desktop oscilloscope.
+The Digilent [Analog Discovery 3](https://digilent.com/shop/analog-discovery-3/) is relatively cheap, requires a laptop, and offers more features than many oscilloscopes that cost several times more, though at lower frequencies and without a built-in screen. If used in a shared space, ground connection order needs to be clearly documented.
 
-If this type of device is used in a shared space, I think there should be very clear instructions to connect ground before anything else.
-
-I have also heard good things about the Rigol DHO800 series.
+The [Rigol DHO800 series](https://rigolshop.eu/products/oscilloscope/dho800.html) is a good alternative if a standalone unit is preferred.
 
 #### Bench power supplies
 
-The right choice depends on how advanced the expected projects are, but almost any reasonable unit will do. I have heard good things about the KA3005D. Isolated outputs are a useful feature to prioritize.
-
-I do not see much benefit in paying extra for very low-noise power supplies when the cost-to-benefit ratio, compared with what is already available in other KTH labs, seems poor.
+Almost any reasonable unit will do. The [Korad KA3005D](https://www.digikey.se/en/products/detail/sra-soldering-products/KA3005D/10708362?srsltid=AfmBOoq80bOPX4wRTvH1oZx8g5GnpVaJ0sw8GKZtJqQ5YC0YinVTV5Gn) is well regarded. Prioritize isolated outputs.
 
 ### Medium Priority
 
 #### Thermal camera
 
-A thermal camera is more advanced, but still very useful for debugging PCBs, and it does not seem especially common from what I have seen. It should probably be fastened to a desk or otherwise secured.
+Useful for PCB debugging and not especially common in student spaces. Should be secured to a desk.
 
-One example is the [UNI-T UTI712S from Clas Ohlson](https://www.clasohlson.com/se/UNI-T-Uti712S-v%C3%A4rmekamera-termisk/p/36-9240).
+One option: [UNI-T UTI712S from Clas Ohlson](https://www.clasohlson.com/se/UNI-T-Uti712S-v%C3%A4rmekamera-termisk/p/36-9240).
 
 ### Lower Priority
 
 #### PCB fabrication machine
 
-Some form of PCB fabrication machine would be relatively unique within KTH and could be valuable. One example is [Voltera PCB fabrication systems](https://www.voltera.io/products).
+Would be relatively unique within KTH. [Voltera](https://www.voltera.io/products) makes one option. That said, the equivalent machine at Stockholm Makerspace doesn't seem to get much use, worth more research before committing.
 
-That said, I have not seen the corresponding machine at Stockholm Makerspace get much use, so I would want to do more research before recommending it.
+## Spending Priorities
 
-## If I Had to Prioritize Spending
+If budget is limited, in this order:
 
-If the makerspace has limited budget and time, these are the things I would personally prioritize before buying niche machines:
+1. Benches, power, lighting, Wi-Fi, cleaning tools
+2. Consumables system and storage
+3. Several affordable 3D printers (not a few premium ones)
+4. 3D scanner
+5. Solid baseline electrical bench
+6. Access control for expensive tools
 
-1. Reliable benches, power, lighting, Wi-Fi, and cleaning tools
-2. A strong system for consumables, stock replacement, and storage
-3. Several affordable 3D printers instead of a few premium ones
-4. A 3D scanner, since it fills a real niche and makes designing around existing objects much easier
-5. A solid baseline electrical bench for soldering, debugging, and prototyping
-6. Clear access control for expensive tools and accessories
-
-My sense is that if those basics are done well, the space will stay useful over time. If they are not, even very impressive equipment will quickly become frustrating to use.
+If those basics are done well, the space stays useful long-term. If they're not, even impressive equipment becomes frustrating quickly.
