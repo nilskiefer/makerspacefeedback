@@ -170,16 +170,3 @@ One option: [UNI-T UTI712S from Clas Ohlson](https://www.clasohlson.com/se/UNI-T
 #### PCB fabrication machine
 
 Would be relatively unique within KTH. [Voltera](https://www.voltera.io/products) makes one option. That said, the equivalent machine at Stockholm Makerspace doesn't seem to get much use, worth more research before committing.
-
-## Spending Priorities
-
-If budget is limited, in this order:
-
-1. Benches, power, lighting, Wi-Fi, cleaning tools
-2. Consumables system and storage
-3. Several affordable 3D printers (not a few premium ones)
-4. 3D scanner
-5. Solid baseline electrical bench
-6. Access control for expensive tools
-
-If those basics are done well, the space stays useful long-term. If they're not, even impressive equipment becomes frustrating quickly.
